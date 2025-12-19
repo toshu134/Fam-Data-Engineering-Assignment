@@ -62,10 +62,15 @@ This behavior is mathematically correct and expected.
 
 project/
 │── stock_aggregator.py   (Core data processing)
+
 │── validate.py            (Output validation & checks)
+
 │── summary_report.py     (Macro-level summary)
-│── main.py                
+
+│── main.py 
+
 │── daily_stock_data.csv           (Input dataset)
+
 │── result_AAPL.csv
 │── result_AMD.csv
 │── ...
